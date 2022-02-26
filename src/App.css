@@ -1,38 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
+  width: 210mm;
+  height: 280mm;
+  padding: 4rem 3.5rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-block {
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid gray;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.name {
+  padding-bottom: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.contact {
+  padding: 0.1rem 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-key {
+  font-weight: bold;
+  margin-right: 6px;
+}
+.section {
+  display: flex;
+}
+.section-heading {
+  display: flex;
+  text-transform: capitalize;
+  width: 16%;
+  margin-right: 1.5rem;
+}
+.section-title {
+  font-size: 1.2rem;
+}
+.section-children {
+  margin-left: 1rem;
+  width: 82%;
+}
+.experience-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.experience-heading:first-child {
+  margin-bottom: 1rem;
+}
+.role {
+  font-weight: bold;
+}
+.org {
+  font-weight: normal;
+  margin-left: 0.4rem;
+}
+.bold {
+  font-weight: bold;
+}
+.duty-list {
+  margin-left: 1rem;
 }
